@@ -1,0 +1,367 @@
+<html>
+<head>
+    <title>Gruppe E</title>
+    <style>
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .content {
+            margin-top: 80px;
+            padding: 20px;
+            background-color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            line-height: 24px;
+        }
+
+        thead {
+            background-color: weight;
+            color: black;
+            font-weight: bold;
+        }
+
+
+        th, td {
+            padding: 4px;
+            text-align: left;
+            border-bottom: 1px solid black;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        td:first-child {
+            font-weight: bold;
+        }
+
+        td {
+            font-size: 18px;
+        }
+
+        th {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .game-results {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: weight;
+            padding: 20px;
+            border-radius: 10px;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        .game-date {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .game {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .game-teams {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .score {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: weight;
+            padding: 20px;
+            border-radius: 10px;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Startseite</a>
+        <div class="dropdown">
+            <div class="dropdown-content">
+                <a href="GruppeA2.html">Gruppe A</a>
+                <a href="GruppeB2.html">Gruppe B</a>
+                <a href="GruppeC2.html">Gruppe C</a>
+                <a href="GruppeD2.html">Gruppe D</a>
+                <a href="GruppeE2.html">Gruppe E</a>
+                <a href="GruppeF2.html">Gruppe F</a>
+                <a href="GruppeG2.html">Gruppe G</a>
+                <a href="GruppeH2.html">Gruppe H</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">
+                Gruppenphase
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="GruppeA.html">Gruppe A</a>
+                <a href="GruppeB.html">Gruppe B</a>
+                <a href="GruppeC.html">Gruppe C</a>
+                <a href="GruppeD.html">Gruppe D</a>
+                <a href="GruppeE.html">Gruppe E</a>
+                <a href="GruppeF.html">Gruppe F</a>
+                <a href="GruppeG.html">Gruppe G</a>
+                <a href="GruppeH.html">Gruppe H</a>
+                <div class="dropdown">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <center><h1><p>Gruppe E</p></h1></center>
+            <table>
+                <thead>
+                    <tr>
+                        <th>&nbsp</th>
+                        <th>Spiele</th>
+                        <th>Siege</th>
+                        <th>Unentschieden</th>
+                        <th>Niederlagen</th>
+                        <th>Punkte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FC Chelsea</td>
+                        <td>6</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>AC Milan</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>FC Salzburg</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Dinamo Zagreb</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="game-results">
+                <center><div class="game-date">06.09.2022</div></center>
+                <div class="game">
+                    <div class="game-time">18:45 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; Dinamo Zagreb</span><span class="score"><font color=#0000ff> 1:0 </span></font><span class="team-name">FC Chelsea</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; FC Salzburg</span><span class="score"><font color=#0000ff> 1:1 </span></font><span class="team-name">AC Milan</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game-date">14.09.2022</div>
+                <div class="game">
+                    <div class="game-time">18:45 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AC Milan</span><span class="score"><font color=#0000ff> 3:1 </span></font><span class="team-name">Dinamo Zagreb</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FC Chelsea</span><span class="score"><font color=#0000ff> 1:1 </font></span><span class="team-name">FC Salzburg</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <center><div class="game-date">05.10.2022</div></center>
+                <div class="game">
+                    <div class="game-time">18:45 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FC Salzburg</span><span class="score"><font color=#0000ff> 1:0 </font></span><span class="team-name">Dinamo Zagreb</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; FC Chelsea</span><span class="score"><font color=#0000ff> 3:0 </font></span><span class="team-name">AC Milan</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <center><div class="game-date">11.10.2022</div></center>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; Dinamo Zagreb</span><span class="score"><font color=#0000ff> 1:1 </font></span><span class="team-name">FC Salzburg</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AC Milan</span><span class="score"><font color=#0000ff> 0:2 </font></span><span class="team-name">FC Chelsea</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <center><div class="game-date">25.10.2022</div></center>
+                <div class="game">
+                    <div class="game-time">18:45 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FC Salzburg</span><span class="score"><font color=#0000ff> 1:2 </font></span><span class="team-name">FC Chelsea</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; Dinamo Zagreb</span><span class="score"><font color=#0000ff> 0:4 </font></span><span class="team-name">AC Milan</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <center><div class="game-date">02.11.2022</div></center>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AC Milan</span><span class="score"><font color=#0000ff> 4:0 </font></span><span class="team-name">FC Salzburg</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="game-time">21:00 Uhr</div>
+                    <div class="game-teams">
+                        <span class="team-name">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FC Chelsea</span><span class="score"><font color=#0000ff> 2:1 </font></span><span class="team-name">Dinamo Zagreb</span>
+                    </div>
+                    <div class="game-score">
+                        <span class="team-score">&nbsp;</span>&nbsp;<span class="team-score">&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
